@@ -111,7 +111,7 @@ def adicionar_livro_click(entry, lb_autores, lb_livros):
             messagebox.showinfo("Sucesso", f"Livro '{titulo}' adicionado!")
             entry.delete(0, tk.END)
             atualizar_lista_livros(lb_livros)
-        # else: banco.py mostra o erro
+       o
 
     except Exception as e:
         messagebox.showerror("Erro Inesperado", f"Ocorreu um erro ao adicionar livro: {e}")
@@ -149,7 +149,7 @@ def excluir_livro_click(lb_livros):
 
         # 7. Pede confirmação
         if messagebox.askyesno("Confirmar", f"Deseja excluir o livro '{titulo_livro}'?"):
-            # 8. Tenta excluir e dá feedback
+            # 8. Tenta excluir 
             if banco.excluir_livro(id_livro):
                 messagebox.showinfo("Sucesso", "Livro excluído!")
                 atualizar_lista_livros(lb_livros) # Atualiza a lista
@@ -166,7 +166,7 @@ def iniciar_interface():
     """Cria e configura a janela principal e seus widgets."""
     root = tk.Tk()
     root.title("Sistema de Biblioteca ")
-    root.geometry("550x700") # Aumentei um pouco a altura
+    root.geometry("900x800") 
 
     # --- Frame Autores ---
     frame_autores = tk.Frame(root, bd=2, relief=tk.GROOVE, padx=10, pady=10)
