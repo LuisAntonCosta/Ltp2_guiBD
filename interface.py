@@ -165,7 +165,7 @@ def excluir_livro_click(lb_livros):
 def iniciar_interface():
     """Cria e configura a janela principal e seus widgets."""
     root = tk.Tk()
-    root.title("Sistema de Biblioteca (Simples v2)")
+    root.title("Sistema de Biblioteca ")
     root.geometry("550x700") # Aumentei um pouco a altura
 
     # --- Frame Autores ---
