@@ -5,6 +5,5 @@
 
 ### Projeto
 
-Professor,fizemos o projeto seguindo a documentacao e os codigos das aulas passadas.Acredito que o botao de excluir um livro especifico nao apareca de imediato na hora que abrir a janela
-Por exemplo,assim é o padrao:
-![image](https://github.com/user-attachments/assets/622b163b-07ca-4164-aeaf-1b664e622b71)
+![image](https://github.com/user-attachments/assets/736c6f24-bd41-45d8-9aa8-74b02a6e9fd3)
+
